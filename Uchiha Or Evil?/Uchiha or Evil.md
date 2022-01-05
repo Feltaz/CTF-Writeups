@@ -34,7 +34,7 @@ but all we need for this challenge is summed up in this picture
 
 ---
 ### Description :
-`You some important stuffs! the Hockage is proud of you o// let's dive in the real stuff now can you really hack the Uchiha?`
+`You found some important stuffs! the Hockage is proud of you o// let's dive in the real stuff now can you really hack the Uchiha?`
 
 ### Hints :
 
@@ -143,7 +143,7 @@ and start our attack
   
 ![intruder attack](assets/intruderlength%20of%20secret.png)
 
-We notice we had a different response due to the length of it being different   
+We notice we had a different response in the 42th request due to the length of it being different   
 We send it to the [repeater](https://portswigger.net/burp/documentation/desktop/tools/repeater/using)
   
   ---
