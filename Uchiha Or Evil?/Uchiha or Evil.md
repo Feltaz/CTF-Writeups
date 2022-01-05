@@ -7,12 +7,16 @@
     - [Previous challenge info](#previous-challenge-info)
   - [Challenge Details](#challenge-details)
     - [Description :](#description-)
-  - [Hints :](#hints-)
+    - [Hints :](#hints-)
+    - [Category: `Web`](#category-web)
+    - [Points: `1000`](#points-1000)
+    - [Year : `2021`](#year--2021)
   - [TL;DR](#-tldr)
   - [Solution](#-solution)
   - [Part 1:](#part-1)
   - [Part 2:](#part-2)
-  - [Part 3](#part-3)
+  - [Part 3:](#part-3)
+  - [Flag:](#flag)
   - [References](#-references)
 
 
@@ -30,11 +34,16 @@ but all we need for this challenge is summed up in this picture
 
 ---
 ### Description :
-![You some important stuffs! the Hockage is proud of you o// let's dive in the real stuff now can you really hack the Uchiha?](assets/chall%20description.png)
+`You some important stuffs! the Hockage is proud of you o// let's dive in the real stuff now can you really hack the Uchiha?`
 
-## Hints :
+### Hints :
 
-![Is using hashes that way always secure ? Shisui is not sure about that since the old state of a hash is saved ](assets/challHint.png)
+`Is using hashes that way always secure ? Shisui is not sure about that since the old state of a hash is saved`
+
+### Category: `Web`
+### Points: `1000`  
+
+### Year : `2021`
 
 ## TL;DR
 ---
@@ -138,7 +147,7 @@ We notice we had a different response due to the length of it being different
 We send it to the [repeater](https://portswigger.net/burp/documentation/desktop/tools/repeater/using)
   
   ---
-## Part 3  
+## Part 3:  
 ![Repeater](assets/guinjutsuphpscript.png)
  and there we have it! the source code of `guinjutsu.php`:
 
@@ -224,7 +233,10 @@ remembering the information we got from the first challenge we had to look for /
 `shttp://uchiha.fuinjutsukeeper.tech:5000/../../../../../secret.txt`  _  
 
 And voila: 
-![flag](assets/FLAG.png)  
+
+![flag](assets/FLAG.png) 
+
+## Flag:   
 `Yogosha{Master_Of_ArbitraRy_ReAdiNg_Jutsu}`  
 ## References
  ---
