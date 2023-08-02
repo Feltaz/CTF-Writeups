@@ -299,7 +299,7 @@ apt install openvpn nc python3 -y
 ```
 openvpn is for vpn connection to tryhackme python for the webserver and nc for the reverse shell though i'm pretty sure you'll find nc and python3 already installed. 
 
-I also need to mentioned that I used this security group:  
+I also need to mention that I used this security group:  
 
 ![sec_group](assets/sec_group.PNG)
 
